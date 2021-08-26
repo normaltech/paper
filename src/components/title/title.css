@@ -1,0 +1,36 @@
+.titleContainer{
+  height: 530px;
+  display: flex;
+  align-items: center;
+  justify-items: space-around;
+  background-image: url("BG.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.phrasesContainer{
+  flex:5;
+}
+
+.phrases{
+  color: white;
+  font-size: 30px;
+  width: 300px;
+  padding: 100px;
+  margin-left: 100px;
+}
+
+.videoContainer{
+  flex:5;
+}
+
+
+.Home_vid_bg__1nWKN {
+  height: 320px;
+  object-fit: fill;
+  padding: 100px;
+  margin-right: 40px;
+}
+
+video {
+}

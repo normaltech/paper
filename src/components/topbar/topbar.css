@@ -1,0 +1,39 @@
+.topbarContainer{
+  height: 80px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .topbarLeft{
+  position: relative;
+  flex: 3;
+}
+
+.topbarRight{
+  flex:7;
+} */
+
+ul {
+  list-style: none
+}
+
+.logoImg{
+  height: 100px;
+}
+
+.brandImg{
+  height: 100px;
+  margin-left: -30px;
+}
+
+.topbarRight{
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu{
+  padding: 20px;
+}
