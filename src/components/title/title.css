@@ -1,11 +1,14 @@
 .titleContainer{
-  height: 530px;
+  max-width: 90%;
+  margin: 0 auto;
+  height: auto;
   display: flex;
   align-items: center;
-  justify-items: space-around;
+  justify-content: space-between;
   background-image: url("BG.jpg");
   background-repeat:no-repeat;
   background-size: cover;
+  flex-wrap: wrap;
 }
 
 .phrasesContainer{
@@ -31,7 +34,4 @@
   object-fit: fill;
   padding: 100px;
   margin-right: 40px;
-}
-
-video {
 }

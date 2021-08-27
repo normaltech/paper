@@ -3,9 +3,11 @@
   background-color: #293466;
   color: white;
   margin-top: 50px;
-  height: 300px;
-  /* width: 90%; */
+  height: auto;
+  margin: 30px auto;
+  width: 90%;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 a { 

@@ -1,8 +1,10 @@
-import "./body.css"
-import Topbar from "../topbar/Topbar"
-import Title from "../title/Title"
-import Press from "../press/Press"
-import LinkTab from "../linktab/LinkTab"
+import "./body.css";
+import Topbar from "../topbar/Topbar";
+import Title from "../title/Title";
+import Press from "../press/Press";
+import LinkTab from "../linktab/LinkTab";
+import Approach from "../approach/Approach";
+
 
 export default function Body() {
   let ended = false;
@@ -24,7 +26,8 @@ export default function Body() {
           </video>
         </div>
         <div className="bodyMidContainer">
-          {/* <LinkTab/> */}
+          <Approach/>
+          <LinkTab />
           <Title />
           <Press />
         </div>

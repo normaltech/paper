@@ -1,12 +1,41 @@
 .linksContainer{
-  display: flex;
-  justify-content: space-around;
-  height: 400px;
-  background-color: red;
-  margin: 30px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px 20px;
+  align-items: center;
+  margin: 50px 0;
+  left:0; 
+  right:0; 
+  margin-left:auto; 
+  margin-right:auto;
+  max-width: 1000px;
+}
+
+p{
+  font-size: 20px;
+}
+
+#text {
+  border-bottom: 2px solid
 }
 
 .link{
-  background-color: black;
+  padding: 30px;
+}
+
+a div.link{
   color: white;
+  background-color: black;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.link:nth-child(1){
+  grid-column: 1 / span 2;
+}
+
+.linkTitle{
+  margin-bottom: 30px;
+  font-size: 50px
 }
