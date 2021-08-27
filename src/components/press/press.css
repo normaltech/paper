@@ -1,0 +1,52 @@
+.pressContainer{
+  display: flex;
+  background-color: #293466;
+  color: white;
+  margin-top: 50px;
+  height: 300px;
+  align-items: center;
+}
+
+a { 
+  text-decoration:none;
+  color: white
+}
+
+.phraseContainer{
+  flex:4;
+  padding-left: 60px;
+}
+
+.phrase{
+  padding: 30px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.subDesc{
+  padding: 20px;
+  font-size: 25px;
+  width: 600px;
+  text-align: left;
+}
+
+.siteBadgeImg{
+  height: 200px;
+}
+
+.siteBadgesContainer{
+  flex:6;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.siteBadge{
+  display: flex;
+  flex-direction: column;
+}
+
+.siteName{
+  text-align: center;
+  margin-top: 10px;
+}

@@ -15,9 +15,10 @@
 .phrases{
   color: white;
   font-size: 30px;
-  width: 300px;
+  width: 500px;
   padding: 100px;
   margin-left: 100px;
+  text-align: center;
 }
 
 .videoContainer{

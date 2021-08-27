@@ -12,7 +12,7 @@ export default function Topbar() {
         </span>
       </div>
       <ul className="topbarRight">
-        <li className="menu">Home</li>
+        <li className="menu" id="home">Home</li>
         <li className="menu">Approach</li>
         <li className="menu">Business</li>
         <li className="menu">Insights</li>
