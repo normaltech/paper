@@ -1,0 +1,12 @@
+.linksContainer{
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+  background-color: red;
+  margin: 30px 0;
+}
+
+.link{
+  background-color: black;
+  color: white;
+}

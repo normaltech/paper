@@ -1,6 +1,7 @@
 import "./topbar.css"
 
-export default function Topbar() {
+export default function Topbar(props) {
+  const ended = props.ended;
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
