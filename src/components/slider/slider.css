@@ -1,0 +1,44 @@
+/* external css: flickity.css */
+
+* {
+   box-sizing: border-box;
+}
+
+body { 
+  font-family: sans-serif; 
+}
+
+.carousel {
+  background: lime;
+}
+
+.carousel-cell {
+  width: 28%;
+  height: 200px;
+  margin-right: 10px;
+  background: white;
+  border-radius: 5px;
+  border-right: solid 3px #FFF;
+}
+.carousel-cell b{
+  display: block;
+  font-size: 36px;
+  font-weight: 600;
+  top: 30%;
+  left: 30%;
+}
+.carousel-cell span{
+  left: 30%;
+  top: 50%;
+}
+
+
+/* cell number */
+
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}

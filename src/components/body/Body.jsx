@@ -26,7 +26,7 @@ export default function Body() {
           </video>
         </div>
         <div className="bodyMidContainer">
-          <Approach/>
+          <Approach />
           <LinkTab />
           <Title />
           <Press />
