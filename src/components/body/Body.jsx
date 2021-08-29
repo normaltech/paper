@@ -5,6 +5,7 @@ import Press from "../press/Press";
 import LinkTab from "../linktab/LinkTab";
 import Approach from "../approach/Approach";
 import Slider from "../slider/Slider";
+import Ecosystem from "../ecosystem/Ecosystem";
 
 
 export default function Body() {
@@ -15,6 +16,8 @@ export default function Body() {
     video_z[0].style.zIndex = -1;
     const topbar = document.getElementsByClassName('topbarContainer');
     topbar[0].style.visibility = "visible";
+    const carousel = document.getElementsByClassName('carousel');
+    carousel[0].style.visibility = "visible";
   }
   return (
     <>
@@ -30,8 +33,9 @@ export default function Body() {
         <div className="bodyMidContainer">
           <Approach />
           <LinkTab />
-          <Title />
-          <Press />
+          <Ecosystem/>
+          {/* <Title />
+          <Press /> */}
         </div>
       </div>
     </>

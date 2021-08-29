@@ -4,20 +4,25 @@
    box-sizing: border-box;
 }
 .carousel {
+  visibility: hidden;
   background: transparent;
+  overflow: hidden;
   position: absolute; 
-  top: 73%; 
-  width: 30%;
-  margin-left: auto;
-  margin-right: auto; 
+  top: 80%; 
+  width: 60%;
+  left: 0;
+  right: 0;
+  margin-right:auto;
+  margin-left:auto;
 }
 
 .carousel-cell {
-  width: 28%;
-  height: 200px;
-  margin-right: 10px;
+  width:30%;
+  height: 100px;
   background: transparent;
-  border-radius: 5px;
+  border-right: solid 1px black;
+  border-left: solid 1px black;
+  text-align: center;
 }
 .carousel-cell b{
   display: block;
@@ -31,11 +36,10 @@
   top: 50%;
 }
 
-
 /* cell number */
 
 .carousel-cell:before {
-  display: block;
+  border-style: none;
   text-align: center;
   line-height: 200px;
   font-size: 80px;

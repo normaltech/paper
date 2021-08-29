@@ -1,0 +1,51 @@
+.ecosystemConatiner{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+
+
+.-\31  {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  margin: 51px 90px 127px 86px;
+}
+
+.img31{
+  position: relative;
+  width: 10px;
+  z-index: -1;
+}
+
+.-\32  {
+  width: 94px;
+  height: 94px;
+  margin: 69px 61px 51px 57px;
+}
+
+.-\357 {
+  width: 92px;
+  height: 48px;
+  margin: 0 57px 51px 0;
+}
+
+.-\358 {
+  width: 97px;
+  height: 48px;
+  margin: 0 0 51px 61px;
+}
+
+.-\359 {
+  width: 92px;
+  height: 48px;
+  margin: 51px 57px 0 0;
+}
+
+.-\360 {
+  width: 97px;
+  height: 48px;
+  margin: 51px 0 0 61px;
+}
