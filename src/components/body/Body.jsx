@@ -4,6 +4,7 @@ import Title from "../title/Title";
 import Press from "../press/Press";
 import LinkTab from "../linktab/LinkTab";
 import Approach from "../approach/Approach";
+import Slider from "../slider/Slider";
 
 
 export default function Body() {
@@ -24,6 +25,7 @@ export default function Body() {
             <source src="/assets/Website Graphics/Video/Website Video 3.mp4" type="video/mp4" />
             Sorry, your browser doesn't support embedded videos.
           </video>
+          <Slider/>
         </div>
         <div className="bodyMidContainer">
           <Approach />

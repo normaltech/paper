@@ -8,6 +8,13 @@
 	z-index : 1;
 }
 
+.bodyTopContainer{
+  width: 100%;
+  overflow: hidden;
+  margin: 0px auto; 
+  position: relative;
+}
+
 .bodyMidContainer{
   padding-top: 30px;
 }

@@ -8,7 +8,7 @@ export default function Slider() {
     contain: true
   });
   return (
-    <div className="carousel" data-flickity='{ "pageDots": false,"draggable": false, "groupCells": true, "prevNextButtons": false, "wrapAround": true, "autoPlay": 1500}'>
+    <div className="carousel" data-flickity='{ "pageDots": false,"draggable": true, "groupCells": true, "prevNextButtons": false, "wrapAround": true, "autoPlay": 3000}'>
       <div className="carousel-cell">
         <b>20+ </b>
         <span>Petabytes data stored per year</span>
