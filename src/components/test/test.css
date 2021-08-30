@@ -1,0 +1,14 @@
+.carousel-cell {
+  width: 28%;
+}
+
+.carousel-cell img {
+  width: 100%;
+  height: auto;
+}
+
+
+.carousel:after {
+ content: 'flickity';
+ display: none; 
+}
