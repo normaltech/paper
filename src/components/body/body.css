@@ -1,20 +1,21 @@
-.titleVideo{
-	top : 0; 
-	left : 0;
-	min-width : 100 %;
-	min-height : 100 %;
-	width : 100%;
-	height : auto;
-	z-index : 1;
+.titleVideo {
+  top: 0;
+  left: 0;
+  min-width: 100 %;
+  min-height: 100 %;
+  width: 100%;
+  height: auto;
+  z-index: 1;
 }
 
-.bodyTopContainer{
+.bodyTopContainer {
   width: 100%;
   overflow: hidden;
-  margin: 0px auto; 
+  margin: 0px auto;
   position: relative;
 }
 
-.bodyMidContainer{
+.bodyMidContainer {
   padding-top: 30px;
+  background-color: #ebeae6;
 }

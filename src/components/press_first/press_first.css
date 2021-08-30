@@ -5,6 +5,8 @@
   height: 600px;
   margin-left: auto;
   margin-right: auto;
+  left: 0;
+  right: 0;
   background-color: #ebeae6;
 }
 .title {
