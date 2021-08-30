@@ -6,6 +6,7 @@ import LinkTab from "../linktab/LinkTab";
 import Approach from "../approach/Approach";
 import Slider from "../slider/Slider";
 import Ecosystem from "../ecosystem/Ecosystem";
+import Press_first from "../press_first/Press_first";
 
 
 export default function Body() {
@@ -32,6 +33,7 @@ export default function Body() {
         </div>
         <div className="bodyMidContainer">
           <Approach />
+          <Press_first />
           <LinkTab />
           <Ecosystem/>
           {/* <Title />
