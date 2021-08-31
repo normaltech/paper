@@ -16,7 +16,6 @@ export default function Ecosystem() {
          <area shape="rect" coords="437,944,534,993" alt="Avalanche" href="https://ethereum.org/en/"/>
          <area shape="rect" coords="653,669,846,823" alt="SLINK" href="https://ethereum.org/en/"/>
        </map>
-        
      </div>
 
   )

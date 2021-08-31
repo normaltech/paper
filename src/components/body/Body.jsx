@@ -8,6 +8,7 @@ import Slider from "../slider/Slider";
 import Ecosystem from "../ecosystem/Ecosystem";
 import Press_first from "../press_first/Press_first";
 import Test from "../test/Test";
+import Ourteam from "../ourteam/Ourteam";
 
 
 export default function Body() {
@@ -37,7 +38,8 @@ export default function Body() {
           <Press_first />
           <Ecosystem/>
           <LinkTab />
-          <Test />
+          <Ourteam />
+          {/* <Test /> */}
           {/* <Title />
           <Press /> */}
         </div>

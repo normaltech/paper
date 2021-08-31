@@ -8,7 +8,7 @@ export default function Test() {
   });
   return (
     //<div className="main-carousel" data-flickity='{ "imagesLoaded":"true", "autoPlay": "true", "watchCSS":"true","pageDots": false}'>
-    <div class="main-carousel" data-flickity='{"imagesLoaded":true, "autoPlay":true,"pageDots": false,"cellAlign": "left"}'>
+    <div class="main-carousel" data-flickity='{"imagesLoaded":true, "autoPlay":3000,"pageDots": false,"cellAlign": "left"}'>
 
     <div className="carousel-cell">
 			<img src="/assets/Website Graphics/Bubbles/cg.png"/>
