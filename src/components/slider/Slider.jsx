@@ -2,10 +2,6 @@ import Flickity from "flickity";
 import "./slider.css"
 
 export default function Slider() {
-  var flkty = new Flickity(".carousel", {
-    // options
-    cellAlign: 'left',
-  });
   return (
     <div className="carousel" data-flickity='{ "pageDots": false,"draggable": true, "groupCells": 3, "prevNextButtons": false, "wrapAround": true, "autoPlay": 3000}'>
       <div className="carousel-cell">

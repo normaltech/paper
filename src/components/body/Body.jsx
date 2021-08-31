@@ -38,7 +38,7 @@ export default function Body() {
           <Press_first />
           <Ecosystem/>
           <LinkTab />
-          <Ourteam />
+          <Ourteam/>
           {/* <Test /> */}
           {/* <Title />
           <Press /> */}

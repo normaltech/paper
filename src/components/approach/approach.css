@@ -1,12 +1,17 @@
 .approachContainer{
   display: flex;
-  background-color: #EBEAE6;
+  background-color: #eaeaea;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   justify-content: space-between;
 }
 
+.phrasetitle{
+  font-size: 45px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
 .phrasesContainer{
   display: flex;
   flex:6;

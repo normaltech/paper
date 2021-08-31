@@ -5,22 +5,15 @@
   z-index: 1; */
   display: flex;
   flex-direction: column;
-  align-items: center;
+  height: 900px;
+  background: center no-repeat url("./EcoImage.png");
 }
 
-/* .-\31 {
-  width: 36px;
-  height: 36px;
-  margin: 51px 90px 127px 86px;
-  position: relative;
-  display: block;
-  position: absolute;
-} */
+.ecosystemTitle{
+  margin: 30px 0 30px 38px;
+  font-size: 45px;
+  font-weight: 500;
+}
 
-/* .img31 {
-  width: 70px;
-  height: 70px;
-  /* display: block; */
-/* margin-left: auto;
-  margin-right: auto;
-  position: absolute; */
+
+

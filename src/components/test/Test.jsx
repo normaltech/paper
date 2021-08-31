@@ -1,11 +1,7 @@
 import "./test.css"
-import Flickity from "flickity"
 
 export default function Test() {
-  var flkty = new Flickity(".carousel", {
-    // options
-    cellAlign: 'left',
-  });
+
   return (
     //<div className="main-carousel" data-flickity='{ "imagesLoaded":"true", "autoPlay": "true", "watchCSS":"true","pageDots": false}'>
     <div class="main-carousel" data-flickity='{"imagesLoaded":true, "autoPlay":3000,"pageDots": false,"cellAlign": "left"}'>

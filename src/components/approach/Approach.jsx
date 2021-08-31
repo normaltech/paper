@@ -4,9 +4,9 @@ export default function Approach() {
   return (
     <div className="approachContainer">
       <div className="phrasesContainer">
-        <h1 className="phrasetitle">
-          Our Approach
-        </h1>
+        <div className="phrasetitle">
+          OUR APPROACH
+        </div>
         <p>
           Smart contracts will shape our financial future.
           We believe in data and rely on mathematical models to guide our investment strategies and products. 
