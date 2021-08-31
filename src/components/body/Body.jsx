@@ -35,8 +35,8 @@ export default function Body() {
         <div className="bodyMidContainer">
           <Approach />
           <Press_first />
-          <LinkTab />
           <Ecosystem/>
+          <LinkTab />
           <Test />
           {/* <Title />
           <Press /> */}
