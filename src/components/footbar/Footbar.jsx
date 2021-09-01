@@ -5,7 +5,7 @@ export default function Footbar() {
     <footer class="footer-distributed">
       <div class="footer-left">
 
-        <img className="logoImg" src="/assets/Artboard 2.png" alt="" />
+        <img className="flogoImg" src="/assets/Artboard 2.png" alt="" />
         <div className="listContainer">
           <div className="listTab">
             <ul>

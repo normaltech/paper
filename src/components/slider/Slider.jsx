@@ -3,7 +3,7 @@ import "./slider.css"
 
 export default function Slider() {
   return (
-    <div className="carousel" data-flickity='{ "pageDots": false,"draggable": true, "groupCells": 3, "prevNextButtons": false, "wrapAround": true, "autoPlay": 3000}'>
+    <div className="carousel" data-flickity='{ "pageDots": false,"draggable": true, "groupCells": 4, "prevNextButtons": false, "wrapAround": true, "autoPlay": 3000}'>
       <div className="carousel-cell">
         <b>20+ </b>
         <span>Petabytes data stored per year</span>

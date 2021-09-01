@@ -1,12 +1,21 @@
 .topbarContainer {
   position: fixed;
-  height: 100px;
+  height: 60px;
   width: 100%;
-  background-color: #eaeaea;
+  background-color: #D5D5D5;
   display: flex;
   align-items: center;
   justify-content: space-between;
   visibility: hidden;
+  z-index: 999;
+  transition-duration : 2s;
+}
+
+#nav-colored { background-color: black; transition-duration: 1s;}
+#nav-transparent { 
+  background-color:black;
+  opacity:0.7; 
+  transition-duration: 1s;
 }
 
 .topbarLeft {
@@ -30,15 +39,15 @@ ul {
   font-size: 20px;
 }
 .logo {
-  height: 100px;
+  height: auto;
   /* flex: 3; */
 }
 
 .logoImg {
-  margin-left: 180px;
+  margin-left: 50px;
   margin-top: 10px;
-  height: 80px;
-  width: 80px;
+  width: 200px;
+  height: auto;
   object-fit: cover;
 }
 .brand {
@@ -53,7 +62,7 @@ ul {
 
 .topbarRight {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   margin-right: 20px;
 }
 

@@ -1,14 +1,35 @@
 import "./topbar.css"
+import React, { Component } from 'react'
 
-export default function Topbar() {
-  return (
-    <div className="topbarContainer">
+export default class Topbar extends Component {
+  constructor() {
+    super();
+      this.state = {
+        scrollTop: 0
+      }
+  }
+  
+  componentDidMount = () => {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+  
+  componentWillUnMount = () => {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+  
+  handleScroll = (e) => {
+    const scrollTop = ('scroll', e.srcElement.scrollingElement.scrollTop);
+      this.setState({
+        scrollTop
+      })
+  }
+  render() {
+    
+    return (
+      <div className="topbarContainer" id={`${this.state.scrollTop < 300 ? "nav-colored" : "nav-transparent"}`}>
       <div className="topbarLeft">
         <div className="logo">
-          <img className="logoImg" src="/assets/Artboard 3.png" alt="" />
-          </div>
-          <div className="brand">
-          <img className="brandImg" src="/assets/Artboard 2.png" alt="" />
+          <img className="logoImg" src="/assets/topbarlogo1.png" alt="" />
         </div>
       </div>
       <ul className="topbarRight">
@@ -16,10 +37,10 @@ export default function Topbar() {
         <li className="menu">Approach</li>
         <li className="menu">Business</li>
         <li className="menu">Insights</li>
-        <li className="menu">SLINK Labs</li>
         <li className="menu">Careers</li>
         <li className="menu">Contact Us</li>
       </ul>
     </div>
-  )
+    )
+  }
 }
