@@ -4,12 +4,12 @@ export default function Topbar() {
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
-        <span className="logo">
+        <div className="logo">
           <img className="logoImg" src="/assets/Artboard 3.png" alt="" />
-        </span>
-        <span className="brand">
+          </div>
+          <div className="brand">
           <img className="brandImg" src="/assets/Artboard 2.png" alt="" />
-        </span>
+        </div>
       </div>
       <ul className="topbarRight">
         <li className="menu" id="home">Home</li>

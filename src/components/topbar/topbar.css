@@ -1,25 +1,27 @@
-.topbarContainer{
-  position: absolute;
+.topbarContainer {
+  position: fixed;
   height: 100px;
   width: 100%;
-  background-color: transparent;
+  background-color: #eaeaea;
   display: flex;
   align-items: center;
   justify-content: space-between;
   visibility: hidden;
 }
 
-/* .topbarLeft{
+.topbarLeft {
   position: relative;
-  flex: 3;
+  display: flex;
+  height: 100px;
+  flex: 2;
+  align-items: center;
 }
 
-.topbarRight{
-  flex:7;
-} */
-
-#home{
-  color: #5AB94B;
+.topbarRight {
+  flex: 7;
+}
+*/ #home {
+  color: #5ab94b;
 }
 
 ul {
@@ -27,23 +29,35 @@ ul {
   font-weight: bold;
   font-size: 20px;
 }
-
-.logoImg{
-  height: 200px;
+.logo {
+  height: 100px;
+  /* flex: 3; */
 }
 
-.brandImg{
-  height: 200px;
-  margin-left: -50px;
+.logoImg {
+  margin-left: 180px;
+  margin-top: 10px;
+  height: 80px;
+  width: 80px;
+  object-fit: cover;
+}
+.brand {
+  height: 100px;
+}
+.brandImg {
+  height: 100px;
+  width: 200px;
+  margin-left: 100px;
+  object-fit: cover;
 }
 
-.topbarRight{
+.topbarRight {
   display: flex;
   justify-content: space-around;
   margin-right: 20px;
 }
 
-.menu{
+.menu {
   padding: 20px;
   border-right-color: black;
 }
