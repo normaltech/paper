@@ -7,7 +7,6 @@ import Approach from "../approach/Approach";
 import Slider from "../slider/Slider";
 import Ecosystem from "../ecosystem/Ecosystem";
 import Press_first from "../press_first/Press_first";
-import Test from "../test/Test";
 import Ourteam from "../ourteam/Ourteam";
 import Partner from "../partners/partners";
 
@@ -29,7 +28,7 @@ export default function Body() {
         <div className="bodyTopContainer">
           <Topbar />
           <video className="titleVideo" onEnded={endHandler} preload="auto" auto="true" playsInline={true} autoPlay={true} muted={true} id="myVideo">
-            <source src="/assets/Website Graphics/Video/Website Video 3.mp4" type="video/mp4" />
+            <source src="/assets/Website Graphics/Video/Countdown.mp4" type="video/mp4" />
             Sorry, your browser doesn't support embedded videos.
           </video>
           <Slider/>
@@ -41,7 +40,6 @@ export default function Body() {
           <LinkTab />
           <Ourteam/>
           <Partner/>
-          {/* <Test /> */}
           {/* <Title />
           <Press /> */}
         </div>

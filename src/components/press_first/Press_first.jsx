@@ -3,7 +3,6 @@ import "./press_first.css"
 export default function press_first() {
   return (
     <div className="container">
-      <div className="title">PRESS</div>
       <div className="itemsContainer">
         <div className="item">
           <img className="itemImg" src="/assets/press_Image/Business.png" alt="" />
