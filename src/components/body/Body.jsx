@@ -9,6 +9,7 @@ import Ecosystem from "../ecosystem/Ecosystem";
 import Press_first from "../press_first/Press_first";
 import Test from "../test/Test";
 import Ourteam from "../ourteam/Ourteam";
+import Partner from "../partners/partners";
 
 
 export default function Body() {
@@ -39,6 +40,7 @@ export default function Body() {
           <Ecosystem/>
           <LinkTab />
           <Ourteam/>
+          <Partner/>
           {/* <Test /> */}
           {/* <Title />
           <Press /> */}

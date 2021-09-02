@@ -6,8 +6,9 @@ import Landingpage from "../landingpage/Landingpage";
 export default function Home() {
   return (
     <>
-      <Landingpage/>
-      {/* <Footbar/> */}
+      {/* <Landingpage/> */}
+      <Body />
+      <Footbar />
     </>
   );
 }
