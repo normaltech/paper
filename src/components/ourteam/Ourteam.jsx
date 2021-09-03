@@ -7,7 +7,7 @@ export default function Ourteam() {
       <div className="containerTitle">
         Our team
       </div>
-      <div className="teams" data-flickity='{ "pageDots": false,"draggable": true, "prevNextButtons": false, "wrapAround": true, "autoPlay": 3000}'>
+      <div className="teams" data-flickity='{ "pageDots": false,"draggable": true, "prevNextButtons": false, "wrapAround": true, "autoPlay": 3000, "groupCells": "3","cellAlign": "left"}'>
         <div className="teams-cell">
           <div className="profile">
             <img className="teamImg" src="/assets/Website Graphics/Profiles/Lychee.png" alt="" />
