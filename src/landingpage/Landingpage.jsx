@@ -14,7 +14,6 @@ export default function Landingpage() {
       if (distDt < 0) {
         clearInterval(timer);
         document.getElementById(id).innerHTML = 'www.slinklab.com' + '<br/>' + 'Now open';
-        // document.getElementById("countOverText").textContent = 'Now Open';
         return;
       }
       var days = Math.floor(distDt / _day);
@@ -37,7 +36,7 @@ export default function Landingpage() {
   // var dateObj = new Date(); 
   // dateObj.setDate(dateObj.getDate() + 1); 
   // countDownTimer('sample01', dateObj); // 내일까지 
-  countDownTimer('mainClock1', '09/05/2021 00:00 AM'); // 2024년 4월 1일까지, 시간을 표시하려면 01:00 AM과 같은 형식을 사용한다. 
+  countDownTimer('mainClock1', '09/06/2021 04:00 PM'); // 2024년 4월 1일까지, 시간을 표시하려면 01:00 AM과 같은 형식을 사용한다. 
   // countDownTimer('sample03', '04/01/2024'); // 2024년 4월 1일까지 
   // countDownTimer('sample04', '04/01/2019'); // 2024년 4월 1일까지
 
@@ -104,12 +103,11 @@ export default function Landingpage() {
               </div>
             </div>
           </div>
+          <img className="landingSlinkLogoImg" src="/assets/Website Graphics/Video/Countdown Logo Final.png" alt="" />
           <div class="landing-footer-right">
             <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/ShibaLinkToken">
               <i class="fab fa-twitter"></i></a>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com">
-              <i class="fab fa-instagram"></i></a>
-            <a target="_blank" rel="noopener noreferrer" href="https://t.me/SlabAlerts">
+            <a target="_blank" rel="noopener noreferrer" href="https://t.me/SlinkLabs">
               <i class="fab fa-telegram"></i></a>
             
             <div className="landingCopy"> SLINK LABS © 2021 </div>

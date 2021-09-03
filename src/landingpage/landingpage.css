@@ -1,25 +1,33 @@
 .homepage{
   background-color:black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
 }
 .landingTitleVideo{
   position: fixed;
   top: 0;
   left: 0;
-  min-width: 100%;
   min-height: 100%;
   width: 100vw;
-  height: 100vh;
+  object-fit:fill;
   z-index: 1;
+}
+
+.landingSlinkLogoImg{
+  width: 50%;
 }
 
 .mainPage{
   display: flex;
   flex-direction:column;
+  max-width: 100%;
   align-items: center;
   visibility: hidden;
-  justify-content: center;
+  justify-content: space-evenly;
   background-color: transparent; /* Used if the image is unavailable */
-  height: 100vh; /* You must set a specified height */
+  height: auto; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -33,7 +41,7 @@
   color: white;
   font-size: 100px;
   margin-top: 30px;
-  margin-bottom: 300px;
+  margin-bottom: 30px;
 }
 
 
@@ -53,7 +61,7 @@
 .smallBox{
   text-align: center;
   font-family: "digital";
-  width: 70px;
+  width: auto;
   height: auto;
   margin: 0 5px;
   background-color:transparent;
@@ -64,6 +72,7 @@
   font-family: "digital";
   color: white;
   font-size: 100px;
+  text-align: center;
 }
 .clockText{
   font-family: "digital";
@@ -71,22 +80,17 @@
   font-size:20px;
 }
 
-@font-face {
-  font-family: 'digital';
-  src: url('./digital-7_mono.ttf') format('truetype');
-}
 
-#countOverText{
-  font-family: "digital";
-  font-size:45px;
-  color: white;
-}
 
 #mainClock1{
   text-align: center;
 }
 
+.landing-footer-right{
 
+  position: fixed;
+  bottom: 10%;
+}
 
 .landing-footer-right a{
   font-size: 25px;
@@ -98,4 +102,34 @@
   color:white;
   text-align: center;
   margin-top: 6px;
+}
+
+@media screen and (max-width:700px) {
+  .homepage{
+    align-items: center;
+  }
+  .mainClock{
+    font-size: 10px;
+  }
+  .welcomeText{
+    font-size: 45px;
+  }
+  .smallBox{
+    font-size: 25px;
+  }
+  .clockText{
+    font-size: 15px;
+  }
+  .landingSlinkLogoImg{
+    width: 70vw;
+  }
+  .landingTitleVideo{
+    width: 100%;
+    object-fit:cover;
+  }
+}
+
+@font-face {
+  font-family: 'digital';
+  src: url('./digital-7_mono.ttf') format('truetype');
 }
