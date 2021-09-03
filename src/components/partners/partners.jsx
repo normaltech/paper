@@ -30,17 +30,18 @@ export default function partners() {
                 <img className="partnerImg" src="/assets/Website Graphics/partnerImage/international business.png" alt="cg"/>
             </div>
             <div className="partnersItem">
+            </div>
+            <div className="partnersItem">
             <img className="partnerImg" src="/assets/Website Graphics/partnerImage/ritz-herald-special-strong.png" alt="cg"/>
             </div>
             <div className="partnersItem">
             <img className="partnerImg" src="/assets/Website Graphics/partnerImage/yahoo.png" alt="cg"/>
             </div>
-            <div className="partnersItem">11</div>
-            <div className="partnersItem">12</div>
-            <div className="partnersItem">13</div>
-            <div className="partnersItem">14</div>
-            <div className="partnersItem">15</div>
-            <div className="partnersItem">16</div>
+            <div className="partnersItem"></div>
+            <div className="partnersItem"></div>
+            <div className="partnersItem"></div>
+            <div className="partnersItem"></div>
+            <div className="partnersItem"></div>
         </div>
         </div>
     )

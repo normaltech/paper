@@ -9,6 +9,7 @@ import Ecosystem from "../ecosystem/Ecosystem";
 import Press_first from "../press_first/Press_first";
 import Ourteam from "../ourteam/Ourteam";
 import Partner from "../partners/partners";
+import Tokenomics from "../tokenomics_challenge/Tokenomics";
 
 
 export default function Body() {
@@ -36,9 +37,10 @@ export default function Body() {
         <div className="bodyMidContainer">
           <Approach />
           <Press_first />
+          <Ourteam/>
+          <Tokenomics/>
           <Ecosystem/>
           <LinkTab />
-          <Ourteam/>
           <Partner/>
           {/* <Title />
           <Press /> */}
