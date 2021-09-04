@@ -5,7 +5,7 @@ export default function Footbar() {
     <footer class="footer-distributed">
       <div class="footer-left">
 
-        <img className="flogoImg" src="/assets/Artboard 2.png" alt="" />
+        <img className="flogoImg" src="/assets/footbarlogo.png" alt="" />
         <div className="listContainer">
           <div className="listTab">
             <ul>
@@ -59,14 +59,21 @@ export default function Footbar() {
       </div>
 
       <div class="footer-right">
-        <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com">
-          <i class="fab fa-facebook-f"></i></a>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com">
-          <i class="fab fa-instagram"></i></a>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.telegram.com">
-          <i class="fab fa-telegram"></i></a>
-        <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com">
-          <i class="fa fa-github"></i></a>
+        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/ShibaLinkToken">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a target="_blank" rel="noopener noreferrer" href="/">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a target="_blank" rel="noopener noreferrer" href="https://t.me/SlinkLabs">
+          <i class="fab fa-telegram"></i>
+        </a>
+        <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@SLINKLABS">
+          <i class="fa fa-github"></i>
+        </a>
+        <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/PKWezNUUXx">
+          <i class="fab fa-discord"></i>
+        </a>
       </div>
     </footer>
   )

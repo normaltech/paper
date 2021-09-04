@@ -1,5 +1,5 @@
 .flogoImg{
-  width: 80%;
+  width: 40%;
   height: 200px;
   object-fit: cover;
   opacity: 0.75;
@@ -93,7 +93,7 @@
 .footer-distributed .footer-right {
   float: right;
   margin-top: 6px;
-  max-width: 180px;
+  max-width: 300px;
 }
 
 .footer-distributed .footer-right a {

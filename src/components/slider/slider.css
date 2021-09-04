@@ -1,5 +1,6 @@
 .carousel {
   width: 80%;
+  height: 300px;
   visibility: hidden;
   background: transparent;
   overflow: hidden;
@@ -9,23 +10,32 @@
   width: 50%;
   left: 0;
   right: 0;
+
 }
 
 .carousel-cell {
   display: flex;
   width: 33%;
+  height: 65px;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   background: transparent;
   border-left: solid 1px black;
+  letter-spacing: 1.5px;
 }
 
 .bItems {
-  font-size: 35px;
+  font-size: 28px;
+  font-weight:bold;
+  text-align: center;
 }
 
 .spanItems {
-  font-size: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  color: #4C4C4C;
 }
 
 /* .carousel-cell:not(.is-selected) {

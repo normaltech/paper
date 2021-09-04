@@ -10,11 +10,6 @@
   flex-wrap: wrap;
 }
 
-a { 
-  text-decoration:none;
-  color: white
-}
-
 .phraseContainer{
   flex:4;
   padding-left: 60px;

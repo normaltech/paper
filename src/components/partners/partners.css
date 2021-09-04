@@ -1,7 +1,16 @@
 .partnersContainer {
-  width: 80%;
-  margin: 0 auto;
+  width: 70%;
+  margin: 100px auto 0 auto;
   height: 800px;
+  background: center no-repeat url("./worldmap.png");
+  background-size: 100%;
+  content: "";
+  height: 100%;
+}
+
+.partnersTitle{
+  width: 300px;
+  border-bottom: 1px solid black;
 }
 
 .partnersGridContainer {
@@ -23,7 +32,7 @@
   }
 }
 
-.partnersGridContainer:after {
+/* .partnersGridContainer:after {
   background: center no-repeat url("./worldmap.png");
   top: 0;
   left: 0;
@@ -35,13 +44,8 @@
   content: "";
   width: 100%;
   height: 100%;
-}
+} */
 
-.partnersTitle {
-  margin: 30px 0 30px 38px;
-  font-size: 45px;
-  font-weight: 500;
-}
 .partnersItem {
   /* border: 1px dotted black; */
   border-radius: 2px;

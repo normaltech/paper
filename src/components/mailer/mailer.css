@@ -1,0 +1,12 @@
+.mailerContainer {
+  margin-top: 50px;
+  width: 50%;
+  background-color: yellow;
+  background-position: center;
+}
+.contact-form {
+  margin: 25px 85px 75px 100px;
+}
+form-control-btn {
+  margin-top: 30px;
+}

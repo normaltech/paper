@@ -10,6 +10,7 @@ import Press_first from "../press_first/Press_first";
 import Ourteam from "../ourteam/Ourteam";
 import Partner from "../partners/partners";
 import Tokenomics from "../tokenomics_challenge/Tokenomics";
+import Mailer from "../mailer/Mailer";
 
 
 export default function Body() {
@@ -26,7 +27,7 @@ export default function Body() {
   return (
     <>
       <div className="bodyTotalContainer">
-        <div className="bodyTopContainer">
+        <div id="topbarid" className="bodyTopContainer">
           <Topbar />
           <video className="titleVideo" onEnded={endHandler} preload="auto" auto="true" playsInline={true} autoPlay={true} muted={true} id="myVideo">
             <source src="/assets/Website Graphics/Video/Website Video 3.mp4" type="video/mp4" />
@@ -34,7 +35,7 @@ export default function Body() {
           </video>
           <Slider/>
         </div>
-        <div className="bodyMidContainer">
+        <div id="approachid" className="bodyMidContainer">
           <Approach />
           <Press_first />
           <Ourteam/>
@@ -42,6 +43,7 @@ export default function Body() {
           <Ecosystem/>
           <LinkTab />
           <Partner/>
+          <Mailer/>
           {/* <Title />
           <Press /> */}
         </div>

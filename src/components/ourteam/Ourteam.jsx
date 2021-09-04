@@ -5,35 +5,35 @@ export default function Ourteam() {
   return (
     <div className="Ourteamcontainer">
       <div className="containerTitle">
-        Our team
+        Team
       </div>
       <div className="teams" data-flickity='{ "pageDots": false,"draggable": true, "prevNextButtons": false, "wrapAround": true, "autoPlay": 3000, "groupCells": "3","cellAlign": "left"}'>
         <div className="teams-cell">
           <div className="profile">
             <img className="teamImg" src="/assets/Website Graphics/Profiles/Lychee.png" alt="" />
-            <div className="rolltag">
-              Content Coordinator
-            </div>
             <div className="teamName">
               Lychee
             </div>
+            <div className="rolltag">
+            Research Analyst and Content Coordinator.
+            </div>
           </div>
           <div className="profileDesc">
-            Lychee is an accomplished multi-asset trader who has been involved in the cryptocurrency space for over 4 years. His position at SLINK involves managing our community content/promotion groups. In addition to his managing role, he coordinates content and researches various channels for marketing opportunities to support the SLINK community.
+          Lychee coordinates and manages opportunities for SLINK LABS.
           </div>
         </div>
         <div className="teams-cell">
           <div className="profile">
             <img className="teamImg" src="/assets/Website Graphics/Profiles/Purple Dev.png" alt="" />
-            <div className="rolltag">
-              Marketing manager
-            </div>
             <div className="teamName">
               Junes
             </div>
+            <div className="rolltag">
+            Marketing Specialist.
+            </div>
           </div>
           <div className="profileDesc">
-            Co-Founder, Marketing Manager
+          Junes facilitates partnerships and marketing between various platforms for SLINK LABS.
           </div>
         </div>
 
@@ -41,15 +41,15 @@ export default function Ourteam() {
           <div className="profile">
 
             <img className="teamImg" src="/assets/Website Graphics/Profiles/Artboard 5.png" alt="" />
-            <div className="rolltag">
-              Lead developer
-            </div>
             <div className="teamName">
               Purple
             </div>
+            <div className="rolltag">
+              Head Developer.
+            </div>
           </div>
           <div className="profileDesc">
-            Co-Founder, Lead Developer
+          Purple currently oversees operations at SLINK LABS.
           </div>
         </div>
 
@@ -57,29 +57,29 @@ export default function Ourteam() {
           <div className="profile">
 
             <img className="teamImg" src="/assets/Website Graphics/Profiles/Biscuits.png" alt="" />
-            <div className="rolltag">
-              Graphic Designer
-            </div>
             <div className="teamName">
-              Biscuits
+            Mickey
+            </div>
+            <div className="rolltag">
+            Graphics Designer and Assistant Content Coordinator.
             </div>
           </div>
           <div className="profileDesc">
-            Biscuits’s skill set was honed in graphic designing and as well as market intelligence. Having extensive experience in branding design, website design, videography, animation design and much more. On the side PeanutButterx also contributes to content coordinating along with Lychee.
+          Mickey delivers SLINK LABS graphics designs, whilst working alongside Lychee with community coordination and management.
           </div>
         </div>
         <div className="teams-cell">
           <div className="profile">
             <img className="teamImg" src="/assets/Website Graphics/Profiles/Artboard 3.png" alt="" />
-            <div className="rolltag">
-              Research Analyst
-            </div>
             <div className="teamName">
-              Taycan
+            TEAM HORTANS
+            </div>
+            <div className="rolltag">
+            Human Resources Representative.
             </div>
           </div>
           <div className="profileDesc">
-            goodguy
+          TEAM HORTANS is in charge of all HR operations for SLINK LABS.
           </div>
         </div>
       </div>

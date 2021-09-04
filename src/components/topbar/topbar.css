@@ -12,11 +12,11 @@
 }
 
 #nav-colored {
-  background-color: black;
+  background-color: white;
   transition-duration: 1s;
 }
 #nav-transparent {
-  background-color: black;
+  background-color: white;
   opacity: 0.7;
   transition-duration: 1s;
 }
@@ -32,7 +32,11 @@
 .topbarRight {
   flex: 7;
 }
-*/ #home {
+#home {
+  color: #293466;
+}
+#contactus{
+  margin-left: 20px;
   color: #5ab94b;
 }
 
