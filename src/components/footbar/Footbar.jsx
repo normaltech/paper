@@ -12,10 +12,6 @@ export default function Footbar() {
               <h2 className="listHead">Business</h2>
               <li>Investment Management</li>
               <li>Investor Solutions</li>
-              {/* <li>Sightway Capital</li>
-              <li>Real Estate</li>
-              <li>Insurance Quantified</li>
-              <li>Ventures</li> */}
               <li>Securities</li>
               <li>Impact</li>
             </ul>
@@ -47,19 +43,11 @@ export default function Footbar() {
             </ul>
           </div>
         </div>
-
-        {/* <p class="footer-links">
-          <a class="link-1" href="https://www.naver.com">Home</a>
-          <a href="https://www.naver.com">Approach</a>
-          <a href="https://www.naver.com">About us</a>
-          <a href="https://www.naver.com">FAQ</a>
-          <a href="https://www.naver.com">Contact us</a>
-        </p> */}
         <p> SLINK LABS © 2021 </p>
       </div>
 
       <div class="footer-right">
-        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/ShibaLinkToken">
+        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/SLINKLABS?s=20">
           <i class="fab fa-twitter"></i>
         </a>
         <a target="_blank" rel="noopener noreferrer" href="/">

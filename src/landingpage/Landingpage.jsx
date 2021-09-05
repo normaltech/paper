@@ -13,7 +13,7 @@ export default function Landingpage() {
       var distDt = _vDate - now;
       if (distDt < 0) {
         clearInterval(timer);
-        document.getElementById(id).innerHTML = 'www.slinklab.com' + '<br/>' + 'Now open';
+        document.getElementById(id).innerHTML = 'www.slinklabs.com' + '<br/>' + 'Now open';
         return;
       }
       var days = Math.floor(distDt / _day);
