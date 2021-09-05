@@ -21,9 +21,10 @@
 
 .itemsTitle {
   font-size: 25px;
-  padding-left: 30px;
   font-weight: 400;
   letter-spacing: -1px;
+  text-decoration: underline;
+  margin-left: 2%;
 }
 
 .itemsContainer {

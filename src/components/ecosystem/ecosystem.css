@@ -10,6 +10,14 @@
   margin: 110px auto;
 }
 
+#ecosystemTopbarPos{
+  margin-bottom: 200px;
+}
+
+#ecosystemTopbarPosUnder{
+  height: 70px;
+}
+
 .ecosystemTitle {
   margin: 30px 0 30px 38px;
   font-size: 45px;

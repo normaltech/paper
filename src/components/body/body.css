@@ -20,3 +20,14 @@
   padding-top: 30px;
   background-color: white;
 }
+
+.topUpButton{
+  position: fixed;
+  border: 1px solid black;
+  border-radius:5px;
+  padding: 10px;
+  bottom: 4%;
+  right: 4%;
+  width:20px;
+  cursor: pointer;
+}

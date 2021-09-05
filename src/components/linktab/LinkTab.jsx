@@ -2,7 +2,7 @@ import "./linktab.css"
 export default function linkTab() {
   return (
     <div className="linksContainer">
-      <div className="merchContainer">
+      <div id="merchTopbarPos" className="merchContainer">
         <div className="linkPhrase" id="text">
           <div className="linkTitle">SLinkLabs</div>
           <p className="linkParagraph"> SLINK LABS funds and develops projects that generate revenue on various blockchains. We fill demand and distribute dividends to our supporters with a portion of revenue generated.</p>
@@ -26,6 +26,7 @@ export default function linkTab() {
           </a>
         </div>
       </div>
+      <div id="insightTopbarPos"></div>
       <div className="challengeImgDiv">
         <img className="challengeImg" src="/assets/Website Graphics/Tokenomics/Challenge.png" alt="challengeImg" />
       </div>

@@ -10,8 +10,10 @@ export default function Ecosystem() {
 
   return (
     <div className="ecosystemContainer">
+      <div id="ecosystemTopbarPos"></div>
+      <div id="ecosystemTopbarPosUnder"></div>
       <div className="ecosystemTitle">
-        <div id="slinkline">SLINK</div>
+        <div id="slinkline">SLABS</div>
         <div>ECOSYSTEM</div>
       </div>
     <img className="ecosystemImg" src="/assets/Website Graphics/Ecosystem Map/EcoImage2.png" alt="Image" useMap="#image-map" />

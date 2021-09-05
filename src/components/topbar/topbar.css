@@ -82,6 +82,10 @@ ul {
 }
 
 @media (max-width: 768px) {
+
+  .topbarContainer {
+    width: 100%;
+  }
   .logoImg{
     width: 200px;
   }

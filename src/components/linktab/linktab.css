@@ -3,16 +3,20 @@
   display: flex;
   flex-direction: column;
   margin: 200px auto 300px auto;
-  background-color: #0093E9;
-  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 }
+
+#insightTopbarPos{
+  height: 70px;
+}
+
 .merchContainer{
   display: flex;
   flex-direction: column;
-  width: 50%;
   left:0; 
   right:0; 
   margin:30px auto;
+  background-color: #0093E9;
+  background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 }
 
 .linkTitle{
@@ -35,6 +39,7 @@
 .challengeImgDiv{
   display: flex;
   justify-content: center;
+  margin-top: 100px;
 }
 
 .challengeImg{
@@ -61,7 +66,7 @@ p{
   width: 200px;
   padding: 30px 20px;
   text-align: center;
-  margin: 0 30px;
+  margin: 20px 30px;
   border-radius: 20px;
   line-height: 0.9em;
   font-size: 40px;
@@ -80,10 +85,11 @@ p{
 @media (max-width: 768px) {
   .linksContainer{
     width: 100%;
+    margin: 20px auto;
   }
   
   .merchContainer{
-    width: 90%;
+    width: 100%;
   }
 
   .linkPhrase{
@@ -111,10 +117,13 @@ p{
     width: 70%;
     height: 10%;
     margin: 20px auto;
+    font-size: 35px;
   }
 
   .link div{
-    width: 240px;
+    width: 200px;
   }
-
+  .challengeImgDiv{
+    margin-top: 20px;
+  }
 }

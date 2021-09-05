@@ -8,11 +8,11 @@
 .containerTitle {
   width: 80%;
   font-size: 45px;
-  
   font-size: 45px;
   font-weight: 500;
   margin-bottom: 30px;
   border-bottom: 1px solid black;
+  letter-spacing:-2px;
 }
 
 .teams {
@@ -90,10 +90,11 @@
   .Ourteamcontainer {
     width: 100%;
     margin: 160px auto;
+    height: 400px;
   }
   .containerTitle {
     width: 80%;
-    font-size: 30px;
+    font-size: 45px;
     font-weight: 500;
     margin-bottom: 30px;
     margin-left: 15px;

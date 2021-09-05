@@ -26,8 +26,9 @@ export default function Mailer() {
 
   return (
     <div className="mailerContainer">
+    <div id="contactusTopbarPos"></div>
       <div className="mailerTitle">
-        <div className="mailerTitleText">Contact us</div>
+        <div className="mailerTitleText">Connect with</div>
       </div>
       <div className="mailerForm">
         <form className="contact-form" onSubmit={sendEmail, resetForm}>

@@ -39,13 +39,14 @@ export default function Body() {
           <Approach />
           <Press_first />
           <Ourteam/>
-          {/* <Tokenomics/> */}
+          <Tokenomics/>
           <Ecosystem/>
           <LinkTab />
           <Partner/>
           <Mailer/>
-          {/* <Title />
-          <Press /> */}
+          <a href="#">
+           <img className="topUpButton" src="/assets/uparrow.png" alt="" />
+          </a>
         </div>
       </div>
     </>

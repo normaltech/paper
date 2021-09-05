@@ -42,16 +42,16 @@ render() {
         <a href="#approachid" className="menumover">
           <li className="menu">Approach</li>
         </a>
-        <a href="#" className="menumover">
+        <a href="#ecosystemTopbarPos" className="menumover">
           <li className="menu">Business</li>
         </a>
-        <a href="#" className="menumover">
+        <a href="#insightTopbarPos" className="menumover">
           <li className="menu">Insights</li>
         </a>
         <a href="#" className="menumover">
           <li className="menu">Careers</li>
         </a>
-        <a href="#" className="menumover">
+        <a href="#contactusTopbarPos" className="menumover">
           <li className="menu" id="contactus">Contact Us</li>
         </a>
       </ul>
