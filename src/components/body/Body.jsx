@@ -1,7 +1,7 @@
 import "./body.css";
 import Topbar from "../topbar/Topbar";
-import Title from "../title/Title";
-import Press from "../press/Press";
+//import Title from "../title/Title";
+//import Press from "../press/Press";
 import LinkTab from "../linktab/LinkTab";
 import Approach from "../approach/Approach";
 import Slider from "../slider/Slider";

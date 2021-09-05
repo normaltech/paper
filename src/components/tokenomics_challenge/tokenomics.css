@@ -11,24 +11,24 @@
   letter-spacing: -2px;
 }
 
-.tokenImgDiv{
+.tokenImgDiv {
   text-align: center;
 }
 
-.tokenImg{
+.tokenImg {
   margin: 30px auto;
 }
 
-.warningText{
+.warningText {
   text-align: right;
-  font-size:18px;
+  font-size: 18px;
 }
 @media (max-width: 768px) {
   .tokenImg {
     width: 100%;
   }
-  .warningText{
-    font-size:10px;
+  .warningText {
+    font-size: 10px;
     text-align: center;
   }
 }

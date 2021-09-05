@@ -1,8 +1,8 @@
 import "./ecosystem.css"
-import ImageMapper from 'react-img-mapper';
-import ImageMap from "image-map";
+//import ImageMapper from 'react-img-mapper';
+//import ImageMap from "image-map";
 import ReactTooltip from "react-tooltip";
-import { Tooltip } from "@material-ui/core";
+//import { Tooltip } from "@material-ui/core";
 
 
 export default function Ecosystem() {
@@ -16,7 +16,7 @@ export default function Ecosystem() {
         <div id="slinkline">SLABS</div>
         <div>ECOSYSTEM</div>
       </div>
-    <img className="ecosystemImg" src="/assets/Website Graphics/Ecosystem Map/EcoImage2.png" alt="Image" useMap="#image-map" />
+    <img className="ecosystemImg" src="/assets/Website Graphics/Ecosystem Map/EcoImage2.png" alt="EcoImage" useMap="#image-map" />
     <map name="image-map">
       <area data-for='enrich' data-tip= "RugRelief" shape="rect" coords="119,105,293,173" alt="Ethereum" href="https://www.rugrelief.com/" target="_blank"/> 
       <ReactTooltip id='enrich' getContent={(dataTip) => `${dataTip}`}/>
