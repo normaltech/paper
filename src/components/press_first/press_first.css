@@ -85,3 +85,12 @@
   font-size: 22px;
   margin-bottom: 30px;
 }
+
+@media (max-width: 768px) {
+  .itemsContainer {
+    justify-content: center;
+  }
+  .otherPressLinks{
+    margin: -2px;
+  }
+}

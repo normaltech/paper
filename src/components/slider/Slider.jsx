@@ -28,18 +28,7 @@ export default function Slider() {
         <div className="bItems">Decentralized</div>
         <div className="spanItems">swapping platform</div>
       </div>
-      {/* <div className="carousel-cell">
-        <div className="bItems">200+</div>
-        <div className="spanItems">PhDs</div>
-      </div>
-      <div className="carousel-cell">
-        <div className="bItems">4,500+</div>
-        <div className="spanItems">Person-years of R&D</div>
-      </div>
-      <div className="carousel-cell">
-        <div className="bItems">14</div>
-        <div className="spanItems">Math Olympiad Medalists</div>
-      </div> */}
+
     </div>
   )
 }

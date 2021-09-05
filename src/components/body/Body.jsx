@@ -39,7 +39,7 @@ export default function Body() {
           <Approach />
           <Press_first />
           <Ourteam/>
-          <Tokenomics/>
+          {/* <Tokenomics/> */}
           <Ecosystem/>
           <LinkTab />
           <Partner/>

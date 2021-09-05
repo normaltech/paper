@@ -1,7 +1,7 @@
 .flogoImg {
   width: 40%;
   height: 200px;
-  object-fit: fill;
+  object-fit: contain;
   opacity: 0.75;
 }
 
@@ -129,4 +129,36 @@
 }
 .footer-distributed .footer-left p.footer-links {
   line-height: 0.5;
+}
+
+@media (max-width: 768px) {
+  .flogoImg{
+    width: 200px;
+    height: 200px;
+  }
+  .listContainer {
+    width: 100%;
+  }
+
+
+  .listTab ul li {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+  }
+
+  .footer-distributed .footer-right a {
+    width: 20px;
+    font-size: 25px;
+  }
+  .listHead {
+    font-size: 15px;
+  }
+  .listContainer {
+    flex-direction: column;
+  }
+  #productTab {
+    border-right: none;
+  }
 }

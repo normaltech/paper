@@ -41,3 +41,12 @@
   position: absolute;
   z-index: 1;
 }
+
+@media (max-width: 768px) {
+  .ecosystemImg {
+    max-width:100%; max-height:auto;
+  }
+  .ecosystemTitle {
+    font-size: 35px;
+  }
+}

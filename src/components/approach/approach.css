@@ -31,21 +31,30 @@
   font-weight: bold;
 }
 
-/* .phrasesContainer h1 {
-  margin-bottom: 30px;
-}
-
-.phrasesContainer h3 {
-  margin-bottom: 25px;
-}
-
-.phrasesContainer p {
-  font-size: 15px;
-  margin-bottom: 20px;
-} */
 .videoContainer {
 }
 
 .triangleVideo {
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .approachContainer {
+    flex-direction:column;
+    margin: 10px auto;
+  }
+  .phrasesContainer {
+    padding: 10px 10px;
+    margin-bottom: 20px;
+  }
+  .phrasearticle{
+    font-size:15px;
+    width: 100%;
+  }
+  .topbarRight {
+    display: none;
+  }
+  #slinkLabsBold{
+    display: block;
+  }
 }

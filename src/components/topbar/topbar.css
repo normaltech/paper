@@ -42,6 +42,9 @@
 
 ul {
   list-style: none;
+}
+
+.topbarContainer ul{
   font-weight: bold;
   font-size: 20px;
 }
@@ -76,4 +79,13 @@ ul {
 .menu {
   padding: 20px;
   border-right-color: black;
+}
+
+@media (max-width: 768px) {
+  .logoImg{
+    width: 200px;
+  }
+  .topbarRight {
+    display: none;
+  }
 }
