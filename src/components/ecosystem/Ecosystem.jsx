@@ -18,7 +18,7 @@ export default function Ecosystem() {
     <map name="image-map">
       <area data-for='enrich' data-tip= "RugRelief" shape="rect" coords="119,105,293,173" alt="Ethereum" href="https://www.rugrelief.com/" target="_blank"/> 
       <ReactTooltip id='enrich' getContent={(dataTip) => `${dataTip}`}/>
-      <area data-for='enrich' data-tip='COMING SOON' shape="rect" coords="696,105,869,180" alt="Cardano" href="https://cardano.org/" target="_blank"/>
+      <area data-for='enrich' data-tip='COMING SOON' shape="rect" coords="696,105,869,180" alt="Cardano" target="_blank"/>
       <ReactTooltip id='enrich' getContent={(dataTip) => `${dataTip}`}/>
       <area data-for='enrich' data-tip='COMING SOON' shape="rect" coords="18,334,204,401" alt="Binance" target="_blank" />
       <ReactTooltip id='enrich' getContent={(dataTip) => `${dataTip}`}/>

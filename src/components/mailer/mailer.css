@@ -1,12 +1,38 @@
 .mailerContainer {
-  margin-top: 50px;
-  width: 50%;
-  background-color: yellow;
+  display: flex;
+  /* margin-top: 50px; */
+  width: 25%;
+  height: 30%;
+  background-color: #eaeaea;
   background-position: center;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  position: absolute;
+  right: 0px;
 }
-.contact-form {
-  margin: 25px 85px 75px 100px;
-}
+
 form-control-btn {
   margin-top: 30px;
+}
+.textInput {
+  width: 70%;
+}
+.mailerTitle {
+  margin: 30px auto 30px;
+}
+.mailerTitle h1 {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.messageInput {
+  width: 70%;
+}
+.mailerForm p {
+  font-size: 10px;
+}
+.messageInput {
+  resize: none;
+  max-lines: 4;
+  height: 100px;
 }

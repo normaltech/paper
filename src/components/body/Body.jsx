@@ -30,7 +30,7 @@ export default function Body() {
         <div id="topbarid" className="bodyTopContainer">
           <Topbar />
           <video className="titleVideo" onEnded={endHandler} preload="auto" auto="true" playsInline={true} autoPlay={true} muted={true} id="myVideo">
-            <source src="/assets/Website Graphics/Video/Website Video 3.mp4" type="video/mp4" />
+            <source src="/assets/Website Graphics/Video/LandingPageVideo.mp4" type="video/mp4" />
             Sorry, your browser doesn't support embedded videos.
           </video>
           <Slider/>

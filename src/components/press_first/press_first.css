@@ -14,12 +14,12 @@
   margin-bottom: 100px;
 } */
 
-.container a:hover{
-  color: black; 
+.container a:hover {
+  color: black;
   text-decoration: underline;
 }
 
-.itemsTitle{
+.itemsTitle {
   font-size: 25px;
   padding-left: 30px;
   font-weight: 400;
@@ -40,7 +40,7 @@
   height: auto;
   font-size: 14px;
   padding: 5px 20px;
-  margin:0 10px 30px 10px;
+  margin: 0 10px 30px 10px;
   background-color: white;
 }
 
@@ -68,12 +68,12 @@
   height: 100%;
 }
 
-.otherPressLinks{
+.otherPressLinks {
   margin-top: 10px;
   margin-left: 38px;
 }
 
-.pressLinkHead{
+.pressLinkHead {
   font-size: 18px;
   font-weight: 300;
   margin-bottom: 10px;
@@ -81,7 +81,7 @@
   opacity: 0.7;
 }
 
-.pressLinkArticle{
+.pressLinkArticle {
   font-size: 22px;
   margin-bottom: 30px;
 }
