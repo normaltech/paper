@@ -58,21 +58,21 @@ export default function Footbar() {
         <p> SLINK LABS © 2021 </p>
       </div>
 
-      <div class="footer-right">
-        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/ShibaLinkToken">
-          <i class="fab fa-twitter"></i>
+      <div className="footer-right">
+        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/SLINKLABS?s=20">
+          <i className="fab fa-twitter"></i>
         </a>
         <a target="_blank" rel="noopener noreferrer" href="/">
-          <i class="fab fa-instagram"></i>
+          <i className="fab fa-instagram"></i>
         </a>
         <a target="_blank" rel="noopener noreferrer" href="https://t.me/SlinkLabs">
-          <i class="fab fa-telegram"></i>
+          <i className="fab fa-telegram"></i>
         </a>
         <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@SLINKLABS">
           <i class="fa fa-github"></i>
         </a>
         <a target="_blank" rel="noopener noreferrer" href="https://discord.gg/PKWezNUUXx">
-          <i class="fab fa-discord"></i>
+          <i className="fab fa-discord"></i>
         </a>
       </div>
     </footer>

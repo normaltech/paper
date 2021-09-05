@@ -32,7 +32,7 @@ render() {
     <div className="topbarContainer" id={`${this.state.scrollTop < 300 ? "nav-colored" : "nav-transparent"}`}>
       <div id="topbarid" className="topbarLeft">
         <div className="logo">
-          <img className="logoImg" src="/assets/topbarlogo1.png" alt="" />
+          <img className="logoImg" src="/assets/topbarlogo1.png" alt="logoImg" />
         </div>
       </div>
       <ul className="topbarRight">
