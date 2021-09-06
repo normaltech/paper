@@ -30,31 +30,22 @@ export default function Footbar() {
             <ul>
               <h2 className="listHead">Products</h2>
               <li>RugRelief</li>
-              <li>BabyUni</li>
-              <li>Fish in the Open Sea</li>
             </ul>
           </div>
 
           <div className="othersTab">
             <ul>
               <li>Contact us</li>
-              <li>Offices</li>
               <li>Privacy policy</li>
             </ul>
           </div>
         </div>
         <p> SLINK LABS © 2021 </p>
       </div>
-
-<<<<<<< HEAD
       <div class="footer-right">
         <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/SLINKLABS?s=20">
           <i class="fab fa-twitter"></i>
-=======
-      <div className="footer-right">
-        <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/SLINKLABS?s=20">
-          <i className="fab fa-twitter"></i>
->>>>>>> a14d8f18210e8f5effbc48848f8d486f2147e6ad
+
         </a>
         <a target="_blank" rel="noopener noreferrer" href="/">
           <i className="fab fa-instagram"></i>

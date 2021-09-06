@@ -1,4 +1,5 @@
 import "./landingpage.css"
+import $ from "jquery";
 
 export default function Landingpage() {
   const countDownTimer = function (id, date) {
@@ -14,6 +15,10 @@ export default function Landingpage() {
       if (distDt < 0) {
         clearInterval(timer);
         document.getElementById(id).innerHTML = 'www.slinklabs.com' + '<br/>' + 'Now open';
+
+        $('#mainClock1').each(function () {
+          $(this).wrapInner('<a href="https://slinklabs.com/" style="color:white; font-family: digital;"/>');
+        });
         return;
       }
       var days = Math.floor(distDt / _day);
@@ -40,6 +45,8 @@ export default function Landingpage() {
   // countDownTimer('sample03', '04/01/2024'); // 2024년 4월 1일까지 
   // countDownTimer('sample04', '04/01/2019'); // 2024년 4월 1일까지
 
+  // '09/06/2021 04:00 PM'
+
   let ended = false;
   console.log(ended);
   const endHandler = (e) => {
@@ -54,7 +61,7 @@ export default function Landingpage() {
     <>
       <div className="homepage">
         <video className="landingTitleVideo" onEnded={endHandler} preload="auto" auto="true" playsInline={true} autoPlay={true} muted={true} id="myVideo">
-          <source src="/assets/Website Graphics/Video/Countdown.mp4" type="video/mp4" />
+          <source src="/assets/Website Graphics/Video/Countdown Final - 4K.mp4" type="video/mp4" />
           Sorry, your browser doesn't support embedded videos.
         </video>
         <div className="mainPage">
@@ -105,11 +112,11 @@ export default function Landingpage() {
           </div>
           <img className="landingSlinkLogoImg" src="/assets/Website Graphics/Video/Countdown Logo Final.png" alt="" />
           <div class="landing-footer-right">
-            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/ShibaLinkToken">
+            <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/SLINKLABS?s=20">
               <i class="fab fa-twitter"></i></a>
             <a target="_blank" rel="noopener noreferrer" href="https://t.me/SlinkLabs">
               <i class="fab fa-telegram"></i></a>
-            
+
             <div className="landingCopy"> SLINK LABS © 2021 </div>
           </div>
 

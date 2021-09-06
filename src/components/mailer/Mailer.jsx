@@ -7,21 +7,14 @@ export default function Mailer() {
 
   function sendEmail(e) {
     e.preventDefault();
-
     emailjs.sendForm('service_62rrrru', 'template_n19exkj', e.target, 'user_z2Ld48CfkLWCe5PiLdeSt')
       .then((result) => {
-        console.log(result.text);
+        // console.log(result.text);
+        alert("message successfully sent");
+        
       }, (error) => {
-        console.log(error.text);
+        alert("please send again");
       });
-  }
-
-  // 폼 리셋 코드 수정해야됨 
-  function resetForm() {
-    const form = document.getElementById("contact-form");
-    $('form').each(function () {
-      this.reset();
-    });
   }
 
   return (
@@ -31,7 +24,7 @@ export default function Mailer() {
         <div className="mailerTitleText">Connect with</div>
       </div>
       <div className="mailerForm">
-        <form className="contact-form" onSubmit={sendEmail, resetForm}>
+        <form className="contact-form" onSubmit={sendEmail}>
           <label><div className="contactItem">Name</div></label>
           <input type="text" className="textInput" name="user_name" placeholder="Your name" required />
           <label><div className="contactItem">Email</div></label>

@@ -4,7 +4,7 @@ export default function linkTab() {
     <div className="linksContainer">
       <div id="merchTopbarPos" className="merchContainer">
         <div className="linkPhrase" id="text">
-          <div className="linkTitle">SLinkLabs</div>
+          <div className="linkTitle">SLINK LABS</div>
           <p className="linkParagraph"> SLINK LABS funds and develops projects that generate revenue on various blockchains. We fill demand and distribute dividends to our supporters with a portion of revenue generated.</p>
         </div>
         <div className="linksTabContainer">
@@ -27,9 +27,9 @@ export default function linkTab() {
         </div>
       </div>
       <div id="insightTopbarPos"></div>
-      <div className="challengeImgDiv">
+      {/* <div className="challengeImgDiv">
         <img className="challengeImg" src="/assets/Website Graphics/Tokenomics/Challenge.png" alt="challengeImg" />
-      </div>
+      </div> */}
     </div>
   )
 }

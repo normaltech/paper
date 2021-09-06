@@ -55,7 +55,7 @@ export default function press_first() {
             <div className="pressLinkArticle">Why The SLINK Coin Is Different from the Other Coins</div>
           </a>
         </div>
-        <div className="otherPressLink">
+        {/* <div className="otherPressLink">
           <div className="pressLinkHead">laweekly</div>
           <a target="_blank" rel="noopener noreferrer" href="https://www.laweekly.com/slink-labs-the-new-and-rising-ethereum-token-eliminating-risks/">
             <div className="pressLinkArticle">SLINK LABS: The New and Rising Ethereum Token Eliminating Risks</div>
@@ -66,7 +66,7 @@ export default function press_first() {
           <a target="_blank" rel="noopener noreferrer" href="https://ritzherald.com/slink-launchpad-introduces-transparent-and-vetted-investments-option-in-blockchain/">
             <div className="pressLinkArticle">SLINK LAUNCHPAD INTRODUCES TRANSPARENT AND VETTED </div>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
 

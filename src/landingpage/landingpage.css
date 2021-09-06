@@ -80,6 +80,9 @@
   font-size:20px;
 }
 
+.menu1_link{
+  z-index: 1;
+}
 
 
 #mainClock1{
@@ -95,6 +98,7 @@
 .landing-footer-right a{
   font-size: 25px;
   margin: 0 10px;
+  color: white;
 }
 
 .landingCopy{
