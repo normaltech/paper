@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  font-family: "heve", sans-serif;
+}
+
+a:link { color: black; text-decoration: none;}
+a:visited { color: black; text-decoration: none;}
+
+
+@font-face {
+  font-family: 'heve';
+  src: url('/assets/Website Graphics/Fonts/Helvetica.ttf') ;
+}
+
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
